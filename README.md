@@ -10,17 +10,26 @@ Background
 Problem
 
 	Many times names in a list can be slightly spelled differently due to typos and various other reasons. 
-	This is a huge problem if a system cannot detect a name that is actually on a particular sanction list and pays that individual or organization.
+	This is a huge problem if a system cannot detect a name that is actually on a particular sanction list and 
+	pays that individual or organization.
 
 Program Detail
 
 	This program is an application that takes a name as its input and screens the name against a stored list of names. 
-	The program traverses through a file or system input and takes a name or a list of names and checks the similarity/ matches between the given name and the stored names. 
-	The program checks the percentage of how similar is the input to each name of stored names. The program then returns the maximum percentage out of all the possible comparisons of the stored names.
+	The program traverses through a file or system input and takes a name or a list of names and checks the similarity/ 
+	matches between the given name and the stored names. 
+	The program checks the percentage of how similar is the input to each name of stored names. 
+	The program then returns the maximum percentage out of all the possible comparisons of the stored names.
 
-	The program outputs a message containing "Hit" if the percentage of similarity is greater than a 75% match. Contrary, the program prints out the message "No Hit" if that particular condition is not satisfied. In both cases, the percentage corresponding with the current match will be appended to the output of the program. Thus, the output will print "Hit - (Percentage Here)" or "No Hit - (Percentage Here)."
+	The program outputs a message containing "Hit" if the percentage of similarity is greater than a 75% match. 
+	Contrary, the program prints out the message "No Hit" if that particular condition is not satisfied. 
+	In both cases, the percentage corresponding with the current match will be appended to the output of the program. 
+	Thus, the output will print "Hit - (Percentage Here)" or "No Hit - (Percentage Here)."
 
-	Initially the program took a dynamic programming approach. However, to improve readability and simplicity this program uses the Apache Commons framework. Commons is a powerful and convenient framework that handles heavy string text processing methods. Additionally, the Jaro Winkler algorithm and Levenshtein distance algorithms were key in the development of the solution.
+	Initially the program took a dynamic programming approach. 
+	However, to improve readability and simplicity this program uses the Apache Commons framework. 
+	Commons is a powerful and convenient framework that handles heavy string text processing methods. 
+	Additionally, the Jaro Winkler algorithm and Levenshtein distance algorithms were key in the development of the solution.
 		
 		-You can learn about these algorithms here: 
 
