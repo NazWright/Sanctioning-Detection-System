@@ -3,11 +3,14 @@
 
 Background
 
-	Economic sanctions are financial penalties that can be applied by one or more countries to a person, group or a country. These countries release sanctions list to banks which show the parties in which no financial transactions are to be made. This is government mandated.
+	Economic sanctions are financial penalties that can be applied by one or more countries to a person, group or a country. 
+	These countries release sanctions list to banks which show the parties in which no financial transactions are to be made. 
+	This is government mandated.
 
 Problem
 
-	Many times names in a list can be slightly spelled differently due to typos and various other reasons. This is a huge problem if a system cannot detect a name that is actually on a particular sanction list and pays that individual or organization.
+	Many times names in a list can be slightly spelled differently due to typos and various other reasons. 
+	This is a huge problem if a system cannot detect a name that is actually on a particular sanction list and pays that individual or organization.
 
 Program Detail
 
