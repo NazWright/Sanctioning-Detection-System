@@ -3,26 +3,22 @@
 
 Background
 
-	Economic sanctions are financial penalties that can be applied 
-	by one or more countries to a person, group or a country. 
-	These countries release sanctions list to banks which show the 
-	parties in which no financial transactions are to be made. 
-	This is government mandated.
+	Economic sanctions are financial penalties that can be applied by one or more countries to a person, 
+	group or a country. These countries release sanctions list to banks which show the parties 
+	in which no financial transactions are to be made. This is government mandated.
 
 Problem
 
-	Many times names in a list can be slightly spelled 
-	differently due to typos and various other reasons. 
-	This is a huge problem if a system cannot detect a name 
-	that is actually on a particular sanction list and 
-	pays that individual or organization.
+	Many times names in a list can be slightly spelled differently due to typos 
+	and various other reasons. This is a huge problem if a system cannot detect a name 
+	that is actually on a particular sanction list and pays that 
+	individual or organization.
 
 Program Detail
 
-	This program is an application that takes a name as its 
-	input and screens the name against a stored list of names. 
-	The program traverses through a file or system input and 
-	takes a name or a list of names and checks the similarity/ 
+	This program is an application that takes a name as its input and screens 
+	the name against a stored list of names. The program traverses through a file or 
+	system input and takes a name or a list of names and checks the similarity/ 
 	matches between the given name and the stored names. 
 	The program checks the percentage of how similar is the input to each name of stored names. 
 	The program then returns the maximum percentage out of all 
@@ -63,7 +59,8 @@ Originally, this project was created using the NetBeans IDE.
 
 Output 
 	
-	As mentioned before, the application will output a message determining whether a name is a hit or miss in a given sanction list with the corresponding max percentage out of the matches in the list.
+	As mentioned before, the application will output a message determining whether a name is a hit or miss 
+	in a given sanction list with the corresponding max percentage out of the matches in the list.
 
 Examples
 	Please enter the inputs in the prompt when running the program.
