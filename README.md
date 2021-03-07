@@ -1,5 +1,3 @@
-# Sanctioning-Detection-System
-# Sanctioning Application
 
 # Background
 
@@ -38,7 +36,7 @@
 
 # Running the Program 
 	
-# Originally, this project was created using the NetBeans IDE.
+    Originally, this project was created using the NetBeans IDE.
 
 	You will need: 
 		-Java JDK 8 or Higher (You can install it here: )
