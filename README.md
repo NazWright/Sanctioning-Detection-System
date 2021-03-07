@@ -1,20 +1,20 @@
 # Sanctioning-Detection-System
 # Sanctioning Application
 
-Background
+# Background
 
 	Economic sanctions are financial penalties that can be applied by one or more countries to a person, 
 	group or a country. These countries release sanctions list to banks which show the parties 
 	in which no financial transactions are to be made. This is government mandated.
 
-Problem
+# Problem
 
 	Many times names in a list can be slightly spelled differently due to typos 
 	and various other reasons. This is a huge problem if a system cannot detect a name 
 	that is actually on a particular sanction list and pays that 
 	individual or organization.
 
-Program Detail
+# Program Detail
 
 	This program is an application that takes a name as its input and screens 
 	the name against a stored list of names. The program traverses through a file or 
@@ -36,9 +36,9 @@ Program Detail
 		
 		-You can learn about these algorithms here: 
 
-Running the Program 
+# Running the Program 
 	
-Originally, this project was created using the NetBeans IDE.
+# Originally, this project was created using the NetBeans IDE.
 
 	You will need: 
 		-Java JDK 8 or Higher (You can install it here: )
@@ -57,12 +57,12 @@ Originally, this project was created using the NetBeans IDE.
 
 			
 
-Output 
+# Output 
 	
 	As mentioned before, the application will output a message determining whether a name is a hit or miss 
 	in a given sanction list with the corresponding max percentage out of the matches in the list.
 
-Examples
+# Examples
 	Please enter the inputs in the prompt when running the program.
 
 		- input: Khristopher Doe   output: Khristopher Doe - Hit 100%
